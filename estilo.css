@@ -1,0 +1,343 @@
+body{
+    /* background-image: url("https://t4.ftcdn.net/jpg/15/32/37/53/360_F_1532375329_wQm6mdIkCIFXe7iGErWUPkJDRla4GywJ.jpg"); */
+    /* background-image: url("https://img.freepik.com/fotos-premium/campo-futbol-o-campo-futbol-pelota-futbol-sobre-fondo-hierba-verde_518421-1096.jpg?semt=ais_hybrid&w=740&q=80"); */
+   background-image: url("https://png.pngtree.com/background/20220725/original/pngtree-soccer-ball-in-goal-on-grass-with-spotlight-vector-illustration-picture-image_1758315.jpg");
+    background-attachment: fixed;
+
+    background-position: center;
+
+   background-size: cover;
+
+   color:white;
+text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+
+}
+
+img.banderaPais{
+
+     
+    border: solid black 1px;
+
+
+}
+
+
+.linkWebPais{
+  color:white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  text-shadow:  
+  1px 1px 0 white,
+    2px 2px 0 black,
+    3px 3px 16px gold;
+
+     border:solid gold 1px;
+background-color: black;
+width: 100%;
+
+}
+/* esta es una card, que contiene un pais */
+.bandera1{
+    border:solid black 1px;
+    border-radius: 2%;
+    display: flex;
+    flex-direction: column;
+    padding: 0.7rem;
+ 
+    /* min-height: 60vh; */
+    gap:0.5rem;
+    /* background-image: url("https://img.freepik.com/vector-gratis/fondo-futbol-degradado-dinamico_23-2149007789.jpg?semt=ais_hybrid&w=740&q=80"); */
+    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz0T7NY729tnC-sOte7aeyn6gFih5j5zWEGw&shttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz0T7NY729tnC-sOte7aeyn6gFih5j5zWEGw&s"); */
+   /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMaqAeYMCehrQZiBcwSgPnqlMdtszLhLutQQ&s"); */
+   /* background-image: url("https://plus.unsplash.com/premium_photo-1677146015088-71992ac139af?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Zm9uZG8lMjBkZSUyMGYlQzMlQkF0Ym9sfGVufDB8fDB8fHww");  */
+   /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmLSgAtHXj8He_pDX52ekTu--p5tRqCy-ZSg&s"); */
+   
+   /* background-image: url("https://img.freepik.com/fotos-premium/campo-futbol-o-campo-futbol-pelota-futbol-sobre-fondo-hierba-verde_518421-1216.jpg?semt=ais_hybrid&w=740&q=80"); */
+
+   color:black;
+   background-position: center;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 2rem;
+
+      background: rgba(255, 255, 255, 0.3); /*semitransparente */
+    
+   backdrop-filter: blur(36px); /*🔥 esto crea el efecto borroso */
+   overflow: hidden;
+   text-align: center;
+   
+   height: 40%;
+   align-items: center;
+   /* justify-content: center; */
+  
+    background: rgba(236, 216, 97, 0.459); /*semitransparente */
+    
+   backdrop-filter: blur(36px); /*🔥 esto crea el efecto borroso */
+
+
+   /* 
+   
+    background: rgba(247, 210, 3, 0.459); backdrop-filter: blur(36px); 
+   
+   */
+
+
+
+
+
+}
+
+.p1{
+  padding: 2rem;
+    border:dashed white 3px;
+    gap:1.5rem;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+  
+   overflow: hidden;
+
+       background: rgba(24, 24, 23, 0.459); /*semitransparente */
+    
+   backdrop-filter: blur(36px); /*🔥 esto crea el efecto borroso */
+}
+
+
+img.imgCopaGanada {
+    
+    width: 42px;
+    height:auto;
+   
+}
+
+
+
+.divCopas{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   /* height: 10%; */
+   /* border:solid red 2px; */
+   flex-wrap: nowrap;
+   border:gold solid 1px;
+   height: 30px;
+     /* background-color: black; */
+
+
+     
+       background: rgba(15, 15, 15, 0.459); /*semitransparente */
+    
+   backdrop-filter: blur(36px); /*🔥 esto crea el efecto borroso */
+     
+ 
+}
+
+
+.flagImg{
+    
+  /* height: auto;*/
+  overflow: hidden; 
+  height: 250px;
+  border:gold 1px dashed;
+  /* border-radius: 15px; */
+  display: flex;
+  justify-content: center;
+  /* background: rgba(175, 168, 168, 0.459); /*semitransparente */
+    
+   /* backdrop-filter: blur(36px); 🔥 esto crea el efecto borroso */ 
+
+       background: rgba(15, 15, 15, 0.459); /*semitransparente */
+    
+   backdrop-filter: blur(36px); /*🔥 esto crea el efecto borroso */
+
+
+ 
+}
+
+.tituloEquipo{
+  border:solid gold 1px;
+  background-color: black;
+  color:goldenrod;
+  width: 100%;
+}
+
+.flagImg img {
+  
+
+  object-fit: contain;   
+  /* o contain */
+}
+
+
+
+
+.contenedorTitulo{
+  background: rgba(255, 255, 255, 0.2); /*semitransparente */
+  
+   backdrop-filter: blur(36px); /*🔥 esto crea el efecto borroso */
+
+border:solid black 2px;
+    
+}
+
+
+
+
+
+
+
+
+.rubik-glitch-regular {
+  font-family: "Rubik Glitch", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.tilt-prism-titulo1 {
+  font-family: "Tilt Prism", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "XROT" 0,
+    "YROT" 0;
+  
+    font-size: 50px;
+    color:white;
+     text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+   
+
+       font-size: clamp(2rem, 5vw, 3rem);
+}
+
+.logo2026{
+
+  width: 120px;
+  height: auto;
+
+}
+
+.contenedorTitulos{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: space-between;
+  justify-content: center;
+  overflow: hidden;
+
+}
+
+div#divGrupos{
+  border: solid red 2px;
+  min-height: 100vh;
+}
+
+
+.abreviaturaPais{
+  border:solid gold 1px;
+  width: 100%;
+  color:goldenrod;
+  background-color: black;
+  font-size: 2rem;
+
+  text-shadow: 2px 2px 0px yellow,
+  5px 5px 10px white;
+  overflow: hidden;
+}
+
+
+
+.tituloEquipo{
+  border:solid gold 2px;
+  background-color: black;
+  color:goldenrod;
+  width: 100%;
+
+
+    font-size: 2.5rem;
+
+  text-shadow: 1px 1px 0px yellow,
+  0px 0px 20px white;
+  overflow: hidden;
+}
+
+/* @media screen and (min-width:420px){
+  .flagImg{
+    height:20vh ;
+  }
+} */
+
+
+@media screen and (min-width:100px) and (max-width:280px){
+  .flagImg{
+    height:6vh ;
+    width: 100%;
+  };
+  .tituloEquipo{
+      font-size: 1.1rem;
+    };
+    .abreviaturaPais{
+      font-size: 1.1rem;
+    };
+    .linkWebPais{
+      font-size: 0.5rem;
+    
+    };
+    .bandera1{
+      padding: 0.2rem;
+    }
+}
+
+
+
+@media screen and (min-width:280px) and (max-width:386px){
+  .flagImg{
+    height:12vh ;
+    width: 100%;
+  };
+  .tituloEquipo{
+      font-size: 1.3rem;
+    }
+     .abreviaturaPais{
+      font-size: 1.3rem;
+    };
+    .linkWebPais{
+      font-size: 0.8rem;
+    
+    };
+    .bandera1{
+      padding: 0.2rem;
+    }
+}
+
+/* @media screen and (max-width:530px){
+  .flagImg{
+    height:20vh ;
+  }
+} */
+
+
+@media screen and (min-width:386px) and (max-width:768px){
+    .flagImg{
+      height: 15vh;
+      width: 100%;
+    };
+    .tituloEquipo{
+      font-size:2rem;
+    };
+     .abreviaturaPais{
+      font-size: 1.3rem;
+    };
+     .linkWebPais{
+      font-size: 1rem;
+     
+    };
+    .bandera1{
+      padding: 0.2rem;
+    }
+    
+}
