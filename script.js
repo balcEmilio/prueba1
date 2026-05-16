@@ -128,7 +128,7 @@ async function traerCompetencia() {
     }
   );*/
 
-    const res = await fetch("api2.php");
+    const res = await fetch("/api2.php");
 
   const data = await res.json();
 
