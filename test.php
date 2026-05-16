@@ -1,2 +1,5 @@
 <?php
-echo OK;
+echo json_encode([
+    "ok" => true,
+    "message" => "funciona"
+]);
