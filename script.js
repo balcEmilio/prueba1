@@ -63,7 +63,7 @@ async function traerCampeonesMundialesHistorial() {
 
   */
 
-    const res = await fetch("/api2.php");
+    const res = await fetch("api2.php");
 
   const data = await res.json();
 
@@ -128,7 +128,7 @@ async function traerCompetencia() {
     }
   );*/
 
-    const res = await fetch("/api2.php");
+    const res = await fetch("api2.php");
 
   const data = await res.json();
 
@@ -167,7 +167,7 @@ async function traerCompetencia2() {
   );
 
   */
-  const res = await fetch("/api.php");
+  const res = await fetch("api.php");
   
 
 
@@ -366,7 +366,7 @@ try{
 
 
     
-    const res = await fetch("/partidosWC2026.php");
+    const res = await fetch("partidosWC2026.php");
 
   const resultado = await res.json();
 
