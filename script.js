@@ -48,7 +48,7 @@ function fRecargarCSS(){
 
 //obtiene los datos de todos los torneos mundiales de fifa.
 async function traerCampeonesMundialesHistorial() {
-  const API_KEY = "ccbdcb265ba0436fac94f04dc5513585";
+
 
 
   /*
@@ -117,7 +117,7 @@ async function traerCampeonesMundialesHistorial() {
 
 
 async function traerCompetencia() {
-  const API_KEY = "ccbdcb265ba0436fac94f04dc5513585";
+
 /*
   const res = await fetch(
     "https://api.football-data.org/v4/competitions",
@@ -137,7 +137,7 @@ async function traerCompetencia() {
 }
 
 // async function copaLibertadores2026(){
-//   const API_KEY = "ccbdcb265ba0436fac94f04dc5513585";
+
 
 //   const res = await fetch("https://api.football-data.org/v4/competitions/CLI/teams",{
 //     headers:{
@@ -153,7 +153,7 @@ async function traerCompetencia() {
 
 //traerEquiposWC2026
 async function traerCompetencia2() {
-  const API_KEY = "ccbdcb265ba0436fac94f04dc5513585";
+ 
 
 
   /*
@@ -226,8 +226,13 @@ async function traerCompetencia2() {
     lblAbreviatura.classList.add("abreviaturaPais")
     lblAbreviatura.classList.add("tilt-prism-titulo1")
 
+  
+
+    let webSiteCortado;
     aWSite.setAttribute("href",team.website);
-    aWSite.innerHTML = team.website;
+    webSiteCortado = team.website;
+    webSiteCortado = webSiteCortado.replace(/^https?:\/\//, "");
+    aWSite.innerHTML = webSiteCortado;
     aWSite.classList.add("linkWebPais")
   
 
@@ -284,7 +289,7 @@ async function traerCompetencia2() {
 //obtiene los partidos de la copa 2026
 async function traerPartidosCopa2026() {
 
-  const API_KEY = "ccbdcb265ba0436fac94f04dc5513585";
+
 /*
   const res = await fetch(
     "http://api.football-data.org/v4/competitions/2000/matches",
@@ -313,7 +318,7 @@ async function traerPartidosCopa2026() {
 
 //consigue las areas, todavia no las uso.
 async function conseguirAreas() {
-  const API_KEY = "ccbdcb265ba0436fac94f04dc5513585";
+
 
   const url = "./areas.php";
 
