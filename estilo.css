@@ -175,13 +175,18 @@ img.imgCopaGanada {
 
 
 
-.contenedorTitulo{
-  background: rgba(255, 255, 255, 0.2); /*semitransparente */
+.contenedorTitulos{
+  background: rgba(53, 51, 51, 0.2); /*semitransparente */
   
    backdrop-filter: blur(36px); /*🔥 esto crea el efecto borroso */
 
 border:solid black 2px;
     
+
+background: rgba(24, 24, 23, 0.459); 
+
+    
+   backdrop-filter: blur(36px); 
 }
 
 
